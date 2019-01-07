@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{90D7875B-1570-4ABD-89E9-CB9718C07445}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FacebookFeatures</RootNamespace>
+    <AssemblyName>A16 Ex01 Tal 200687341 Kobi 033334</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Facebook">
+      <HintPath>..\..\..\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="FbGraphApiWrapper">
+      <HintPath>..\..\..\FbGraphApiWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppConfigSingleton.cs" />
+    <Compile Include="CreateFormFactory.cs" />
+    <Compile Include="FacebookMessage.cs" />
+    <Compile Include="FormGajetOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGajetOne.Designer.cs">
+      <DependentUpon>FormGajetOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGajetThree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGajetThree.Designer.cs">
+      <DependentUpon>FormGajetThree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGajetTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGajetTwo.Designer.cs">
+      <DependentUpon>FormGajetTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IMessages.cs" />
+    <Compile Include="EMailMessage.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SendingMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendingMail.Designer.cs">
+      <DependentUpon>SendingMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SendingMessages.cs" />
+    <Compile Include="SendingStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendingStatus.Designer.cs">
+      <DependentUpon>SendingStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaticMethods.cs" />
+    <Compile Include="StatusMessage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormGajetOne.resx">
+      <DependentUpon>FormGajetOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGajetThree.resx">
+      <DependentUpon>FormGajetThree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGajetTwo.resx">
+      <DependentUpon>FormGajetTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendingMail.resx">
+      <DependentUpon>SendingMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendingStatus.resx">
+      <DependentUpon>SendingStatus.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Resources\Facebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14253849274_62bcbdc283_o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smalllogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[gickr.com]_1da27c00-e3e2-7ff4-9d15-08beea592c25.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Googlelogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook_like_thumb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Facebook_logo_thumbs_up_like_transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\welcome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook-17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Products_1651_3764.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+C:\Users\kobi.salman\Documents\Pr3\A16 Ex01 Tal 200687341 Kobi 305189284\A16 Ex01 Tal 200687341 Kobi 305189284\obj\Debug\A16 Ex01 Tal 200687341 Kobi 305189284.csprojAssemblyReference.cache
+C:\Users\kobi.salman\Documents\Pr3\A16 Ex01 Tal 200687341 Kobi 305189284\A16 Ex01 Tal 200687341 Kobi 305189284\obj\Debug\FacebookFeatures.FormGajetOne.resources
+C:\Users\kobi.salman\Documents\Pr3\A16 Ex01 Tal 200687341 Kobi 305189284\A16 Ex01 Tal 200687341 Kobi 305189284\obj\Debug\FacebookFeatures.FormGajetThree.resources
+C:\Users\kobi.salman\Documents\Pr3\A16 Ex01 Tal 200687341 Kobi 305189284\A16 Ex01 Tal 200687341 Kobi 305189284\obj\Debug\FacebookFeatures.FormGajetTwo.resources
+C:\Users\kobi.salman\Documents\Pr3\A16 Ex01 Tal 200687341 Kobi 305189284\A16 Ex01 Tal 200687341 Kobi 305189284\obj\Debug\FacebookFeatures.FormMain.resources
+C:\Users\kobi.salman\Documents\Pr3\A16 Ex01 Tal 200687341 Kobi 305189284\A16 Ex01 Tal 200687341 Kobi 305189284\obj\Debug\FacebookFeatures.Properties.Resources.resources
+C:\Users\kobi.salman\Documents\Pr3\A16 Ex01 Tal 200687341 Kobi 305189284\A16 Ex01 Tal 200687341 Kobi 305189284\obj\Debug\FacebookFeatures.SendingMail.resources
+C:\Users\kobi.salman\Documents\Pr3\A16 Ex01 Tal 200687341 Kobi 305189284\A16 Ex01 Tal 200687341 Kobi 305189284\obj\Debug\FacebookFeatures.SendingStatus.resources
+C:\Users\kobi.salman\Documents\Pr3\A16 Ex01 Tal 200687341 Kobi 305189284\A16 Ex01 Tal 200687341 Kobi 305189284\obj\Debug\A16 Ex01 Tal 200687341 Kobi 305189284.csproj.GenerateResource.cache
+C:\Users\kobi.salman\Documents\Pr3\A16 Ex01 Tal 200687341 Kobi 305189284\A16 Ex01 Tal 200687341 Kobi 305189284\obj\Debug\A16 Ex01 Tal 200687341 Kobi 305189284.csproj.CoreCompileInputs.cache
